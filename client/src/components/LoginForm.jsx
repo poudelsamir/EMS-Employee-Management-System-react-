@@ -88,9 +88,10 @@ const LoginForm = ({ role, title, subtitle }) => {
                   onClick={() => setShowPassword(!showPassword)}
                 >
                   {showPassword ? (
-                    <EyeIcon size={18} />
+                     <EyeOffIcon size={18} />
                   ) : (
-                    <EyeOffIcon size={18} />
+                    <EyeIcon size={18} />
+                   
                   )}
                 </button>
               </div>

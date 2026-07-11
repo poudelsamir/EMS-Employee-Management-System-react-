@@ -118,6 +118,35 @@ export const dummyEmployeeData = [
             role: "EMPLOYEE",
         },
     },
+    {
+        _id: "69b3411e6f8a807df391d7b13",
+        userId: {
+            _id: "69b3411e5f8a807df391d7b11",
+            email: "johndoe@example.com",
+            role: "EMPLOYEE",
+        },
+        department: "Engineering",
+        firstName: "John",
+        lastName: "Doe",
+        email: "johndoe@example.com",
+        phone: "9000000001",
+        position: "Senior Software Developer",
+        basicSalary: 40000,
+        allowances: 10000,
+        deductions: 2000,
+        employmentStatus: "ACTIVE",
+        joinDate: "2000-01-20T00:00:00.000Z",
+        image: null,
+        isDeleted: true,
+        bio: "Hi, I am dev a full stack web developer",
+        createdAt: "2026-03-13T13:32:22.013Z",
+        updatedAt: "2026-03-13T13:33:20.498Z",
+        id: "69b3411e6f8a807df391d7b13",
+        user: {
+            email: "johndoe@example.com",
+            role: "EMPLOYEE",
+        },
+    },
 ];
 
 export const dummyLeaveData = [

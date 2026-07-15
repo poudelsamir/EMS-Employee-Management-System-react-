@@ -6,7 +6,7 @@ import React from 'react'
 const EmployeeCard = ({employee, onDelete, onEdit}) => {
 
     const handleDelete = async ()=>{
-        if(!confirm("Are you sure you want to delete this em[ployee?"))
+        if(!confirm("Are you sure you want to delete this employee?"))
             return
     }
 

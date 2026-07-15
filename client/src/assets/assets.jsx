@@ -316,6 +316,18 @@ export const dummyAttendanceData = [
         createdAt: "2026-03-13T13:48:41.418Z",
         updatedAt: "2026-03-13T13:48:42.433Z",
     },
+    {
+        _id: "69ab415b9f8a807df391d7bcc",
+        employeeId: "69b411e6f8a807df391d7b13",
+        date: "2026-03-13T18:30:00.000Z",
+        checkIn: "2026-03-14T13:48:41.416Z",
+        checkOut: "2026-03-14T21:48:42.430Z",
+        status: "LATE",
+        workingHours: 8,
+        dayType: "Full Day",
+        createdAt: "2026-03-14T13:48:41.418Z",
+        updatedAt: "2026-03-14T13:48:42.433Z",
+    },
 ];
 
 

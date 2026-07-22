@@ -43,7 +43,7 @@ const LeaveHistory = ({leaves, isAdmin, onUpdate}) => {
                         )}
                         
                         <td>
-                            <span className='bagde bg-slate-100 text-slate-600'>{leave.type}</span>
+                            <span className='badge bg-slate-100 text-slate-600'>{leave.type}</span>
                         </td>
     
                         <td className="text-xs text-slate-500">
